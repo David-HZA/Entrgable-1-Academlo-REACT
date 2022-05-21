@@ -1,12 +1,9 @@
 import React from 'react';
 import quotes from '../quotes.json'
-import QuoteBox from './QuoteBox.js';
-import { useState } from 'react';
-
 
 const Author = () => {
-    const [ quote, setQuote ] = useState(quotes);
-    //const quote = quotes[0];
+
+    const quote = quotes[0];
   
    
     console.log(quote);
